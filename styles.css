@@ -149,11 +149,11 @@ footer li{
 }
 
 @media (max-width: 450px){
-    .job-list{
+    .listbox{
         display: flex;
         flex-direction: column;
     }
-    .job-item{
+    .itembox{
         max-height: 150px;
     }
     footer{
