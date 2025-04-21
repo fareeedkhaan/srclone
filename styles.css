@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #b30000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+nav {
+    background: #222;
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li:hover{
+    transform: scale(1.2);
+}
+
+.main{
+    padding: 50px;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.job-box {
+    background: rgb(250, 233, 233);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 10px #7e3b3b;
+}
+
+.job-box h2 {
+    margin-bottom: 20px;
+    color: #b11414;
+}
+
+.job-list {
+    display: flex;
+    gap: 15px;
+}
+
+.job-item {
+    flex: 1 1 250px;
+    background: #f1e4e4;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.job-item h3 {
+    color: #2f2e2e;
+    margin-bottom: 15px;
+}
+
+.job-item a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background: #7a0202;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.details{
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    border: 3px red solid;
+    padding: 10px;
+}
+.details h2{
+    background-color: rgb(212, 0, 0);
+    color: black;
+    padding: 10px;
+
+}
+#y{
+    color: red;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+table{
+    margin: 10px;
+}
+td{
+    padding: 10px;
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: row;
+}
+footer .leftfoot{
+    width: 33%;
+}
+footer .midfoot{
+    width: 20%;
+}
+footer .rightfoot{
+    width:max-content;
+}
+footer li{
+    list-style: none;
+}
+
+@media (max-width: 450px){
+    .job-list{
+        display: flex;
+        flex-direction: column;
+    }
+}
