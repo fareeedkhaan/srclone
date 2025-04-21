@@ -60,36 +60,36 @@ p{
     font-size: 20px;
     text-align: center;
 }
-.job-box {
+.mainbox {
     background: rgb(250, 250, 250);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 1px 1px 10px #7e3b3b;
 }
 
-.job-box h2 {
+.mainbox h2 {
     margin-bottom: 20px;
     color: #b11414;
 }
 
-.job-list {
+.listbox {
     display: flex;
     gap: 15px;
 }
 
-.job-item {
+.itembox {
     flex: 1 1 250px;
     background: #f1e4e4;
     padding: 15px;
     border-radius: 6px;
 }
 
-.job-item h3 {
+.itembox h3 {
     color: #2f2e2e;
     margin-bottom: 15px;
 }
 
-.job-item a {
+.itembox a {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
